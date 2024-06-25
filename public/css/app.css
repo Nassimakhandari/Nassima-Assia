@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .parent4 {
     display: flex;
     align-items: center;
@@ -30,3 +36,52 @@
     padding: 5vh;
     gap: 10px;
 }
+.parent5 {
+    background-color: #6d48e5;
+    color: white;
+    padding: 14vh;
+    gap: 8vh;
+}
+
+.pourcentage {
+    display: flex;
+    gap: 10vw;
+}
+
+.parent5,
+.description,
+.pourcentage div,
+.link-p {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.description {
+    padding-bottom: 10px;
+    gap: 5px;
+}
+
+.link-p {
+    font-size: 20px;
+}
+
+.description h1 {
+    font-size: 30px;
+    padding: 2vh;
+}
+
+.description h1,
+.description p,
+.pourcentage h1,
+.pourcentage p,
+.link-p a {
+    color: white;
+}
+
+.pourcentage h1 {
+    font-weight: bold;
+    font-size: 90px;
+   }
