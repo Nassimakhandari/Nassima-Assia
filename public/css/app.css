@@ -98,3 +98,42 @@ img {
     flex-direction: column;
     
 }
+@media (max-width:428px) {
+   .parent2 div img{
+      width: 400px;
+   }
+    .logo{
+       display: flex;
+       flex-direction: column;
+      
+    }
+    .d1 h1{
+         text-align: center;
+    }
+    .logo img{
+        width: 50px;
+    }
+    nav,.link{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 130px;
+    }
+    .parent3{
+       height: 450vh;
+       background-color: rgb(229, 245, 250);
+      
+    }
+    .child{
+        text-align: center;
+    }
+    
+  
+    
+
+
+}
+
