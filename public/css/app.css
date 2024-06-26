@@ -66,3 +66,35 @@ img {
     justify-content: space-around;
     gap: 20px;
 }
+.parent3 {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.parent3 {
+    background-color: rgb(229, 245, 250);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10vh;
+    gap: 20px;
+
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 2vh 0;
+}
+
+.child {
+    width: 28vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
