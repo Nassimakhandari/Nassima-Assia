@@ -98,3 +98,285 @@ img {
     flex-direction: column;
     
 }
+
+.parent4 {
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-around;
+padding: 10vh;
+gap: 20px;
+}
+.parent4 h1{
+color: rgb(46, 46, 46);
+
+}
+
+.child2{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 5vh;
+gap: 5vw;
+}
+
+.child2 a,
+.child3 a {
+padding: 0 4vw;
+text-decoration: none;
+color: gray;
+font-size: 20px;
+}
+
+.child2 p,
+.child3 p, .parent4 p{
+padding: 2vh;
+color: gray;
+line-height: 4vh;
+font-size: 18px;
+text-align: center;
+}
+
+.child3 {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 5vh;
+gap: 5vw;
+}
+
+.parent5 {
+background-color: #6d48e5;
+color: white;
+padding: 14vh;
+gap: 8vh;
+}
+
+.pourcentage {
+display: flex;
+gap: 10vw;
+}
+
+.parent5,
+.description,
+.pourcentage div,
+.link-p {
+
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.description {
+padding-bottom: 10px;
+gap: 5px;
+}
+
+.link-p {
+font-size: 20px;
+}
+
+.description h1 {
+font-size: 30px;
+padding: 2vh;
+}
+
+.description h1,
+.description p,
+.pourcentage h1,
+.pourcentage p,
+.link-p a {
+color: white;
+}
+
+.pourcentage h1 {
+font-weight: bold;
+font-size: 90px;
+}
+
+.section2 {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 15vh;
+}
+
+.section2-description {
+display: flex;
+flex-direction: column;
+gap: 4vh;
+
+}
+
+.description2 {
+display: flex;
+justify-content: space-around;
+}
+
+.description2 h2 {
+font-size: 18px;
+color: rgb(54, 70, 85);
+padding: 1.5vh;
+font-size: 22px;
+}
+
+.description2 p {
+font-size: 15px;
+color: rgb(151, 166, 181);
+text-align: start;
+font-size: 17px;
+}
+footer {
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 10vh;
+}
+
+footer h4 {
+text-align: center;
+color: gray;
+}
+
+footer h1 {
+text-align: center;
+}
+
+.footer-1 {
+display: flex;
+flex-direction: column;
+gap: 2vh;
+}
+
+input {
+width: 280px;
+height: 5.5vh;
+border: 1px solid blueviolet;
+border-radius: 5px;
+padding: 0 2vw;
+}
+
+.footer-1 button {
+width: 350px;
+height: 5.5vh;
+border-radius: 5px;
+}
+
+h5 {
+color: gray;
+text-align: center;
+}
+
+.last {
+display: flex;
+align-items: center;
+padding-left: 10vw;
+gap: 20vw;
+
+}
+
+.copy {
+color: gray;
+}
+
+.reseau {
+display: flex;
+gap: 1.5vw;
+}
+
+.last img {
+padding-top: 3vh;
+}
+.btn1{
+width: 170px;
+height: 5vh;
+background-color: rgb(107, 23, 218);
+color: white;
+border: none;
+border-radius: 5px;
+}
+@media (max-width:428px) {
+.parent2 div img{
+   width: 400px;
+}
+ .logo{
+    display: flex;
+    flex-direction: column;
+
+ }
+ .d1 h1{
+      text-align: center;
+ }
+ .logo img{
+     width: 50px;
+ }
+ nav,.link{
+     flex-direction: column;
+     align-items: center;
+ }
+ .wrap{
+     display: flex;
+     flex-direction: column;
+     gap: 130px;
+ }
+ .parent3{
+    height: 450vh;
+    background-color: rgb(229, 245, 250);
+
+ }
+ .child{
+     text-align: center;
+ }
+
+  .parent4{
+    text-align: center;
+  }
+  .child2   {
+    display: flex;
+    flex-direction: column;
+  }
+  .child3{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .parent5{
+    text-align: center;
+  }
+  .pourcentage{
+    display: flex;
+    flex-direction: column;
+  }
+  .section2{
+    display: flex;
+    flex-direction: column;
+  }
+  .last-image img{
+    width: 350px;
+    padding-top: 30px;
+  }
+
+ .description2{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+ }
+
+ .description2 p{
+    text-align: center;
+
+
+
+}
+.footer-1 input{
+width: 78vw;
+}
+.last{
+display: flex;
+flex-direction:column ;
+gap: 0vh;
+}
+.reseau{
+padding-top: 5px;
+}
+}
